@@ -1,0 +1,25 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+body.dark-mode .btn {
+  filter: brightness(0.9);
+}
+.option {
+  margin-bottom: 10px;
+}
+.feedback {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+.bookmark {
+  cursor: pointer;
+  color: blue;
+}
+.bookmark.bookmarked {
+  color: gold;
+}
